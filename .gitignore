@@ -11,6 +11,7 @@ docker/
 mariadb/
 .env
 *.yml
+!/.github/
 
 # Coverage
 coverage
