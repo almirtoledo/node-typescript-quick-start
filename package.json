@@ -25,7 +25,7 @@
   "scripts": {
     "start": "node build/src/main.js",
     "dev": "tsx watch src/main.ts --tsconfig ./tsconfig.json",
-    "build": "tsc -p tsconfig.json",
+    "build": "tsc -p tsconfig.release.json",
     "prebuild": "npm run lint",
     "clean": "rimraf coverage build tmp",
     "lint": "eslint . --ext .ts --ext .mts",
